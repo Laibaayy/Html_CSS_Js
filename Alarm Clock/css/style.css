@@ -1,0 +1,88 @@
+img{
+    width: 17rem;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1508962914676-134849a727f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+
+div.whole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 50%;
+    margin: auto;
+    
+    
+}
+div.work
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Hour{
+    padding: 5px;
+    font-size: 18px;
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 6rem;
+}
+#Minutes {
+    padding: 5px;
+    font-size: 18px;
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 6rem;
+}
+.img2{
+    display: none;
+    width: 7rem;
+     margin: 1rem;
+
+}
+#ampm {
+    padding: 5px;
+    font-size: 18px;
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+button.setalarm{
+    padding: 5px;
+        font-size: 18px;
+        width: 18rem;
+        height: 3rem;
+        margin-top: 10px;
+        background-color: rgb(64, 73, 64);
+        border: 2px solid black;
+        border-radius: 10px;
+        font-weight: 700;
+        cursor: pointer;
+}
+button.setalarm:hover{
+    color: white;
+    background-color: black;
+
+}
+p{
+    font-size: 20px;
+   text-align: center;
+    font-weight: 700;
+    color: rgb(13, 14, 13);
+    margin: .5rem;
+}
