@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, rgb(243, 26, 207),rgb(37, 170, 141));
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+.container-hide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.btnn-hide{
+    border: 2px solid black;
+        width: 7rem;
+        height: 3rem;
+        font-size: 20px;
+        padding: 4px;
+        border-radius: 7px;
+    background: linear-gradient(45deg,rgb(192, 91, 212),
+        rgb(37, 170, 141));
+      margin-top: 1rem;
+        cursor: pointer;
+}
+.wrap{
+    background-color: white;
+        width: 34rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        text-transform: capitalize;
+        display: none;
+}
+.heading{
+    margin: 1rem 0rem;
+    text-align: center;
+}
+.data
+{
+    margin: 1rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border: 2px solid black;
+        width: 16rem;
+        height: 3rem;
+        font-size: 20px;
+        padding: 4px;
+        margin-right: 1rem;
+        border-radius: 7px;
+}
+#btn{
+    border: 2px solid black;
+        width: 7rem;
+        height: 3rem;
+        font-size: 20px;
+        padding: 4px;
+        border-radius: 7px;
+        background: rgb(41, 148, 41);
+        cursor: pointer;
+}
+#btn:hover{
+        background: rgb(27, 51, 27);
+        color: white;
+}
+.ans{
+    margin: 2rem;
+        font-size: 24px;
+        font-weight: bold;
+        text-shadow: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+}
+
+.show{
+    display: none;
+}
+.result{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+       
+}
+.error{
+    margin: 1rem 0rem;
+    font-size: 20px;
+   text-align: center;
+}
+.empty{
+    margin: 1rem 0rem;
+        font-size: 20px;
+        text-align: center;
+}

@@ -1,0 +1,17 @@
+button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding:1rem;
+    width: 12rem;
+    font-size: 25px;
+    border-radius: 5px;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: violet;
+}

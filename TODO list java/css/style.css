@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1589987607627-616cac5c2c5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#todotask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    flex-direction: column;
+    
+}
+
+input {
+    height: 3rem;
+    width: 19rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+
+}
+
+.one-btn {
+    height: 3rem;
+    width: 7rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: lightgreen;
+    margin-left: 2px;
+}
+
+.one-btn:hover {
+    cursor: pointer;
+    background-color: green;
+    font-weight: 700;
+    
+}
+
+.one-btn:hover:active {
+    cursor: pointer;
+    background-color: rgb(20, 63, 20);
+    font-weight: 700;
+    color: white;
+}
+list{
+     background-color: white;
+        width: 17rem;
+         height: 3rem;
+         margin: 2rem 0rem 0 0;
+         border-radius: 7px;
+         padding: 11px;
+        display: inline-block;
+        border: 2px solid black;
+}
+.bx-task {
+    height: 3rem;
+        width: 4rem;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 16px;
+        background-color: lightgreen;
+        margin-left: 2px;
+        text-align: center;
+}
+.bx-task:hover{
+    cursor: pointer;
+        background-color: green;
+        font-weight: 700;
+}
+.bx-task:active{
+    cursor: pointer;
+        background-color: rgb(20, 63, 20);
+        font-weight: 700;
+        color: white;
+}
+.bxs-message-square-x:hover {
+    cursor: pointer;
+    background-color: green;
+    font-weight: 700;
+}
+
+.bxs-message-square-x:active {
+    cursor: pointer;
+    background-color: rgb(20, 63, 20);
+    font-weight: 700;
+    color: white;
+}
+.bxs-message-square-x{
+    height: 3rem;
+        width: 4rem;
+        border: 3px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 16px;
+        background-color: lightgreen;
+        margin-left: 2px;
+        text-align: center;
+}
+h1{
+  display: none;
+  font-weight: 700;
+  color: white;
+  margin-top: 1rem;
+}

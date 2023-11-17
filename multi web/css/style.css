@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 20px;
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+p.data {
+    padding: 2rem 24rem;
+    font-size: 20px;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+div.boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+button {
+    padding: 9px;
+    width: 13rem;
+    color: white;
+    border-radius: 19px;
+    font-size: 20px;
+    font-weight: 900;
+    border: 4px solid white;
+    background: transparent;
+    cursor: pointer;
+
+}
+
+div.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+nav {
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0.8;
+    height: 5rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+li {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+#navbar {
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+
+}
+
+nav ul li a::before {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 0.6vh;
+    width: 0%;
+    /* border-bottom: 2px solid red; */
+    background: grey;
+    top: 3rem;
+    /* transform: translate(0rem, 4rem); */
+
+
+    /* transform: translate(0rem, 2.5rem); */
+    opacity: 0;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+
+}
+
+nav ul li a:hover::before {
+
+    opacity: 1;
+
+    margin-left: 0.6rem;
+    width: 80%;
+    /* transform: translate(0.5rem, 3rem); */
+}
+
+div.btn button {
+    position: relative;
+
+}
+span {
+    position: relative;
+    z-index: 1;
+}
+
+div.btn button::before {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: grey;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.6s;
+    border-radius: 13px;
+    opacity: 0;
+    /* z-index: -1; */
+
+}
+
+div.btn button:hover::before {
+
+    width: 12.5rem;
+    opacity: 1;
+
+}
+
+
+/* Contact page */
+h1.contact-heading {
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+div.contact-boxes {
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.para1 {
+    font-size: 22px;
+    width: 62%;
+    color: whitet;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-bottom: 2rem
+}
+
+section.contact-foam {
+    margin-top: 5rem;
+}
+
+form {
+    background-color: peachpuff;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+}
+
+
+label {
+
+    display: block;
+    font-size: 1.5rem;
+    margin: 0.5rem 0rem;
+}
+
+input {
+    font-size: 1.25rem;
+    margin: 1rem;
+    padding: 1rem;
+    /* width: 26rem; */
+    border: 2px solid black;
+    border-radius: 0.6rem;
+}
+
+button.contact-button {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: black;
+    border: 2px solid black;
+    border-radius: 0.6rem;
+    padding: 0.9rem;
+    width: 28.4rem;
+    background-color: grey;
+    margin-left: 0.9rem;
+    margin-top: 1rem;
+}
+
+.First-Name {
+    margin: 4rem 0 0 0;
+}
+
+
+form input#First-Name {
+    position: relative;
+    width: 23rem;
+    height: 2rem;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+}
+
+/* form input#First-Name::before {
+    content: "";
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 23rem;  */
+    /* height: 2rem;
+    /* transform: translateY(1rem);
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out; */
+
+
+form input#First-Name:hover {
+    padding: 2rem;
+    width: 25rem;
+    height: 3rem;
+}
+#location{
+    width: 100%;
+    height: 600px;
+ margin: 4rem auto; 
+
+} 

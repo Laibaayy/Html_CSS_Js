@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    line-height: 1.55;
+    color: rgb(60, 58, 71);
+  
+
+}
+
+h1 {
+    font-size: 3.15rem;
+    color: rgb(60, 58, 71);
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+h1.styling {
+    margin: 7rem 0 1rem 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: -2px;
+    color: rgb(60, 58, 71);
+}
+
+h2.styling {
+    margin: 0 0 7rem 0;
+}
+
+h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+    color: rgb(60, 58, 71);
+    margin: 4rem 0rem;
+}
+
+/* h3.styling{
+    color: black;
+    position: relative;
+    bottom: 4rem;
+} */
+
+h3.large {
+    font-size: 3.15rem;
+}
+
+.dark h3 {
+    color: white;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.section-intro {
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* p.section-intro {
+    padding: 10rem 0 0 0;
+} */
+
+.foams {
+    color: rgba(255, 255, 255, 0.986);
+
+}
+
+.number {
+    font-size: 2.4rem;
+    font-weight: 200;
+    color: rgba(60, 58, 71, .5);
+    position: relative;
+    right: 6rem;
+}
+
+p.left {
+    text-align: left;
+    padding: 1rem 2rem;
+}
+
+p.large {
+    font-size: 1.75;
+    font-weight: 200;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
+
+/* .center{
+    
+} */
+/* p.styling{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 40%;
+        /* margin-bottom: 5rem; */
+/* position: relative; */
+/* bottom: 122px; */
+/* position: relative;
+        left: 10rem;
+        bottom: 6rem; */
+/* } */
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: brown;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: purple;
+}
+
+form textarea {
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+/* Container */
+
+.container {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.small {
+    width: 40%;
+    max-width: 40%;
+}
+
+header {
+    padding: 240px;
+    text-align: center;
+}
+
+img.logo {
+    width: 10rem;
+}
+
+a.btn {
+    border: 1px solid black;
+    padding: 20px 64px;
+}
+
+a.btn:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+
+}
+
+a.btn:active {
+    color: purple;
+}
+
+/* 2Container */
+#our-chairs {
+    background-color: rgb(255, 234, 209);
+}
+
+main {
+    text-align: center;
+}
+
+.mid {
+    display: grid;
+    grid-template-rows: auto auto;
+    /* grid-row: auto auto; */
+    padding: 4rem 0;
+}
+
+.mid h3,
+p.styling {
+    margin: 0px;
+    padding: 0px 10rem 2rem 10rem;
+    /* display: grid; */
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.foams {
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 3rem;
+}
+
+.foams p,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+#Contact {
+    background-color: rgba(60, 58, 71, .5);
+    ;
+}
+
+.fb-icon {
+    width: 4rem;
+}
+
+.insta-icon {
+    width: 6rem;
+}
+
+.twitter-icon {
+    width: 5rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+form {
+    text-align: left;
+    padding: 0 0 0 6rem;
+}
+
+form label {
+    display:block;
+}
+#Contact-Name{
+    width: 18rem;
+    padding: 10px;
+}
+#Email-Address{
+    width: 18rem;
+    padding: 10px;
+   
+}
+
+#Text{
+    width: 18rem;
+        padding: 10px;
+        resize: none;
+}
+.btn{
+    padding: 4px;
+        margin-top: 6px;
+        width: 18rem;
+}

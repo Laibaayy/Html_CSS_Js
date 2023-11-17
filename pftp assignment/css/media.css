@@ -1,0 +1,45 @@
+@media screen and (max-width:800px) {
+
+    a{
+        font-size: 16px;
+    }
+button {
+    width: 4rem;
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 12px;
+   
+}
+button:hover {
+    font-weight: 700;
+}
+ul {
+    gap: 1rem;
+}
+img{
+    width: 7rem;
+}
+h1{
+    font-size: 25px;
+}
+.btn{
+        padding: 6px;
+        width: 7rem;
+        font-size: 12px;
+      
+}
+}
+@media screen and (max-width:450px) {
+button {
+        padding: 0px;
+        border-radius: 7px;
+        display: block;
+        margin-top: 3px;
+
+    }
+        a {
+            font-size: 14px;
+     
+        }
+
+}

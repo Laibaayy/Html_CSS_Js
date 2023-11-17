@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(https://c.s-microsoft.com/en-us/CMSImages/All-in-O….jpg?version=15692d40-cc47-8fe4-2366-334f32795879);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+div.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.text {
+    color: white;
+
+
+}
+
+span {
+    color: blue;
+    font-size: 1.5rem;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    opacity: 0.6;
+    height: 4rem;
+    align-items: center;
+    border-bottom: 0.4rem solid blue;
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li a{
+    position: relative;
+}
+nav ul li a::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 80%;
+    height: 0.4vh;
+    background: red;
+    /* border-bottom: 2px solid red; */
+    transform: translate(0rem,2.5rem);
+    opacity: 0;
+    /* margin-left: 10px; */
+}
+nav ul li a:hover::before{
+    transition-duration: 0.5s;
+    opacity: 1;
+    transition-timing-function: ease-in;
+    transform: translate(1rem, 1.5rem);
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 0rem 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+input {
+    width: 13rem;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 7px;
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+
+.container {
+    display: flex;
+
+}
+
+input.style {
+    display: block;
+    margin: 1rem;
+}
+
+button.style {
+    display: block;
+    width: 14rem;
+    margin: 1rem;
+    padding: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem 0 0 0;
+
+}
+
+p {
+    text-align: center;
+
+    line-height: 32px;
+}
+
+form {
+    background-color: blue;
+    margin-left: 4rem;
+}
+
+div.color {
+    margin: 1.5rem;
+    padding: 7px;
+}
+
+h1.heading {
+    width: 50vw;
+    margin: 41px 55px 0px 55px;
+    background-color: white;
+    font-size: 2.3rem;
+}
+
+div.box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+p.p2 {
+    width: 50vw;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+div.images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.img1 {
+    width: 7rem;
+}
+
+.img2 {
+    width: 7rem;
+}
+
+.img3 {
+    width: 5rem;
+}
+
+.js-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    width: 24vw;
+    height: 50vh;
+}
+
+.logo-js {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    width: 24vw;
+    height: 57vh;
+}
+
+.logo-j {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    width: 24vw;
+    height: 50vh;
+}
+
+div.logo {
+    display: flex;
+
+}
+
+h1.sec {
+    font-size: 36px;
+    color: white;
+    font-weight: 600;
+    padding: 1rem 0 0 0;
+}
+
+section {
+
+    background-image: url(https://cdn.xxl.thumbs.canstockphoto.com/backgroun…-slate-background-texture-picture_csp13197678.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 4rem;
+}
+
+.logo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 4rem;
+}
+
+img.log1,
+img.log2 {
+    width: 15rem;
+}
+
+p.p3 {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+p.end {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0.9;
+}
+
+.detail-of-projects {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem 3rem;
+    gap: 2rem;
+}
+
+.one-p {
+    border: 1px solid black;
+    height: 20vh;
+}
+.sec-p {
+    border: 1px solid black;
+    height: 20vh;
+}
+.th-p {
+    border: 1px solid black;
+    height: 20vh;
+}
+
+.f-p {
+    border: 1px solid black;
+    height: 20vh;
+}
+.one-p:hover{
+    height: 30vh;
+    transition-property: height;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    
+}
+.jpj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.4);
+    gap: 2rem;
+    height: 55vh;
+    transition-property: height;
+    transition: 0.6s;
+    transition-timing-function: ease-in-out;
+}
+
+
+.jpj:hover {
+    height: 60vh;
+}
+
